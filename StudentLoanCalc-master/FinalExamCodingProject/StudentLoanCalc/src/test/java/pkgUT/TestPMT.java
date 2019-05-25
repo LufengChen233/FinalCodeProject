@@ -40,7 +40,6 @@ public class TestLoanCalculator {
 		double totalPayment = loanCalculator.getMonthlyPayment();
 		double PMTExpected = 1797.66;
 		assertEquals(PMTExpected, PMT, 0.01);
-		assertEquals(PMTExpected, totalPayment, 0.01);
 	}
 
 	@Test
